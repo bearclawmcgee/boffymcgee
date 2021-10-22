@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    /*background-color: rgb(247, 241, 241);*/
+}
+
+.hero {
+    width: 80%;
+    margin: auto;
+    margin-bottom: none;
+}
+
+.logo {
+    transition: 1s;
+}
+
+.logo:hover {
+    scale: 1.2;
+}
+
+
+
+.navbar {
+    margin: 30px auto;
+    margin-bottom: none;
+    display: flex;
+    align-items: left;
+}
+
+
+
+.menuinicio {
+    background-image: url(/fotos/LOW\ POLY\ FOREST.svg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    transition: 1s;
+}
+
+.menuinicio:hover {
+    border-radius: 35px;
+}
+
+
+ul {
+    flex: 1;
+    text-align:center;
+    margin-top: 100px;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    position: relative;
+}
+
+ul li a:hover {
+    color: forestgreen;
+}
+
+ul li a::after {
+    content: '';
+    width: 0;
+    height: 10px;
+    background: rgba(21, 119, 58, 0.363);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -55px;
+    transition: .5s;
+}
+
+ul li a:hover::after {
+    width: 100%;
+}
+
+.navbar-icons a::after {
+    content: '';
+    width: 0;
+    height: 10px;
+    background: forestgreen;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -55px;
+    transition: .5s;
+}
+
+.navbar-icons a:hover::after {
+    width: 100%;
+}
+
+.navbar-icons img {
+    height: 25px;
+    margin-left: 40px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.navbar-icons {
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.banner {
+    display: flex;
+    margin-top: 80px;
+}
+
+.left-column, .right-column {
+    flex-basis: 50%;
+}
+
+.right-column img {
+    width: 100%;
+}
+
+hr {
+    width: 10px;
+}
+
+.line2 {
+    height: 20px;
+    width: 100%;
+    background-color: rgba(21, 119, 58, 0.363);
+    border-radius: 35px;
+}
+
+.line3 {
+    height: 20px;
+    width: 80.5%;
+    background-color: rgba(21, 119, 58, 0.363);
+    position: relative;
+    top: -220px;
+    margin-left: 121.5px;
+    border-radius: 35px;
+    z-index: -999;
+}
+
+.maintext {
+    padding: none;
+    padding-left: 150px;
+    width: 50%;
+}
+
+.maintext p {
+    position: relative;
+    bottom: 35px;
+}
+
+.maintext img {
+    max-width: 50%;
+    position: relative;
+    left: 650px;
+    bottom: 250px;
+}
+
+#fotopeñas {
+    transition: 1s;
+}
+
+#fotopeñas:hover {
+    border-radius: 35px;
+    scale: 2;
+}
+
+
+/*Pagina Salidas*/
+
+h2 {
+    position: relative;
+    top: -65px;
+    font-size: 1.5em;
+}
+
+.lugares {
+    position: relative;
+    top: -25px;
+}
+
+.lugares a {
+    text-decoration: none;
+    color: black;
+    padding: 0 7px;
+    position: relative;
+}
+
+.lugares a:hover {
+    color: forestgreen;
+}
+
+.lugares a::after {
+    content: '';
+    width: 0;
+    height: 10px;
+    background: rgba(21, 119, 58, 0.363);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: translateY(600%);
+    top: -55px;
+    transition: .5s;
+}
+
+.lugares a:hover::after {
+    width: 1300%;
+}
+
+#corral {
+    box-shadow:1px 1px 1px rgba(21, 119, 58, 0.363);
+    width: 25%;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+#corral:hover {
+    scale: 1.5;
+    transform: translateY(-.1em);
+    transform: translateX(1em);
+}
+
+#valle {
+    box-shadow:1px 1px 1px rgba(21, 119, 58, 0.363);
+    width: 25%;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+#valle:hover {
+    scale: 1.5;
+    transform: translateY(-.1em);
+    transform: translateX(1em);
+}
+
+#salazar {
+    box-shadow:1px 1px 1px rgba(21, 119, 58, 0.363);
+    width: 25%;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+#salazar:hover {
+    scale: 1.5;
+    transform: translateY(-.1em);
+    transform: translateX(1em);
+    
+}
+
+.fotoslugares {
+    display: flex;
+    position: relative;
+    right: 60%;
+}
+
+#fotovalle {
+    border-radius: 35px;
+    box-shadow: 3px 3px 3px rgba(21, 119, 58, 0.363);
+    transition: 2s;
+}
+
+#fotovalle:hover {
+    scale: 2.5;
+    position: relative;
+    z-index: 1;
+}
+
+#pulmones {
+    border-radius: 35px;
+    margin-left: 20px;
+    box-shadow: 3px 3px 3px rgba(21, 119, 58, 0.363);
+    transition: 2s;
+}
+
+#pulmones:hover {
+    scale: 2.5;
+    z-index: 1;
+}
+
+#profilepic {
+    border-radius: 50%;
+}
+
+#profilepic {
+    transition: 1s;
+}
+
+#profilepic:hover {
+    border-radius: 35px;
+    scale: 1.5;
+}
+
+
+/*segunda versión quienes somos*/
+
+.retratos {
+    position: relative;
+    left: -650px;
+    top: 250px;
+}
+
+#fotobof {
+    border-radius: 50%;
+    margin-bottom: 100px;
+    transition: 2s;
+}
+
+#fotobof:hover {
+    transform: scale(1.5);
+    z-index: 1;
+}
+
+#fotocharls {
+    border-radius: 50%;
+    transition: all 2s;
+}
+
+#fotocharls:hover {
+    transform: scale(1.5);
+    z-index: 1;
+}
+
+.textboxbof {
+    position: relative;
+    top: -650px;
+    left: 400px;
+    padding-right: 50px;
+}
+
+.textboxcharls {
+    position: relative;
+    top: -300px;
+    left: 400px;
+    padding-right: 50px;
+}
+
+.line4 {
+    height: 20px;
+    width: 81%;
+    background-color: rgba(21, 119, 58, 0.363);
+    position: relative;
+    top: -100px;
+    margin-left: 121.5px;
+    border-radius: 35px;
+    z-index: -999;
+}
+
+.quienes2 {
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+
+.line5 {
+    height: 2px;
+    background-color: rgba(21, 119, 58, 0.363);
+    width: 90%;
+    position: relative;
+    top: -300px;
+    left: 1050px;
+    border-style: none;
+    border-radius: 35px;
+}
+
+/*footer*/
+
+footer p {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -200px;
+}
+
+
+/* Página Corral */
+
+.h2corral {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-size: 2em;
+}

@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(215, 236, 236);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Main Container*/
+.main-container {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+
+/* Welcome Banner Section*/
+.welcome-banner {
+    color: #fff;
+    background-color: rgb(171, 215, 233);
+    background-image: url(/fotos/escalando.jpeg);
+    background-position: center right 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    padding: 80px;
+    padding-right: 100px;
+    margin-top: 25px;
+    margin-left:0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+
+}
+
+.welcome-banner h1 {
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center;
+}
+
+.welcome-banner h2 {
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center;
+}
+
+/*End Welcome Banner Section*/
+
+/*Navigation Menu*/
+ul {
+    text-align: center;
+}
+
+ul li{
+    display: inline;
+    padding: 10px;
+    list-style: none;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1;
+}
+
+/*End Navigation Menu*/
+
+/*Main Content Area*/
+.main-content {
+    background-color: rgb(230, 240, 240);
+    font-family: 'Helvetica Neue', sans-serif;
+    padding-right: 50px;
+}
